@@ -19,7 +19,8 @@
 }
 
 .section--bai,
-.section--cofee {
+.section--cofee,
+.section--postings {
   display: grid;
   place-content: center;
   gap: 1.5rem;

@@ -50,7 +50,7 @@ function App() {
         <p>front-end developer @Barrage</p>
       </section>
 
-      <section id="postings" className="section postings bg-yellow">
+      <section id="postings" className="section section--postings bg-yellow">
         <h2>What does a Front-end developer do? 🤔</h2>
 
         <div className="images__container" role="presentation">
