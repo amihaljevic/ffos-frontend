@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ffos-frontend/static/css/main.9924af15.css",
-    "main.js": "/ffos-frontend/static/js/main.d2c2354e.js",
+    "main.css": "/ffos-frontend/static/css/main.faf97668.css",
+    "main.js": "/ffos-frontend/static/js/main.83611f80.js",
     "static/js/787.2cb1672a.chunk.js": "/ffos-frontend/static/js/787.2cb1672a.chunk.js",
     "static/media/cofee.jpg": "/ffos-frontend/static/media/cofee.1aa6b071f66fbba6f242.jpg",
     "static/media/front-dev-2.jpg": "/ffos-frontend/static/media/front-dev-2.290367a56f9b18484705.jpg",
@@ -12,12 +12,12 @@
     "static/media/front-dev-1.jpg": "/ffos-frontend/static/media/front-dev-1.083ce67006a81585262d.jpg",
     "static/media/logo.svg": "/ffos-frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ffos-frontend/index.html",
-    "main.9924af15.css.map": "/ffos-frontend/static/css/main.9924af15.css.map",
-    "main.d2c2354e.js.map": "/ffos-frontend/static/js/main.d2c2354e.js.map",
+    "main.faf97668.css.map": "/ffos-frontend/static/css/main.faf97668.css.map",
+    "main.83611f80.js.map": "/ffos-frontend/static/js/main.83611f80.js.map",
     "787.2cb1672a.chunk.js.map": "/ffos-frontend/static/js/787.2cb1672a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9924af15.css",
-    "static/js/main.d2c2354e.js"
+    "static/css/main.faf97668.css",
+    "static/js/main.83611f80.js"
   ]
 }
