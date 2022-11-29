@@ -129,7 +129,7 @@ function App() {
         </figure>
       </section>
 
-      <section id="resources" className="section resources bg-red">
+      <section id="resources" className="section section--resources bg-red">
         <h2>Resources 🔎</h2>
 
         <ul className="list">
@@ -246,7 +246,9 @@ function App() {
         </section>
       </section>
 
-      <section id="newsletters" className="section newsletters bg-blue">
+      <section
+        id="newsletters"
+        className="section section--newsletters bg-blue">
         <h2>Newsletters 📰</h2>
 
         <ul className="list">
