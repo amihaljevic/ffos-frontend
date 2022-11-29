@@ -19,6 +19,13 @@ function App() {
         </h1>
       </section>
 
+      <section className="section section--header bg-grey">
+        <p className="h3">iliti ga</p>
+        <p className="h1">
+          Front-end: ti to tamo mijenjaš boje na buttonima? 🎨
+        </p>
+      </section>
+
       <section className="section section--contents bg-red">
         <h2>Table of contents</h2>
 
@@ -44,10 +51,62 @@ function App() {
         </ol>
       </section>
 
-      <section id="hello" className="section hello bg-green">
+      <section id="hello" className="section section--hello bg-green">
         <h2>Hello 👋</h2>
-        <p>Andrea Mihaljević</p>
-        <p>front-end developer @Barrage</p>
+
+        <section className="info">
+          <div role="presentation">
+            <p className="h3">Andrea Mihaljević</p>
+            <p className="h5">
+              front-end developer{" "}
+              <a
+                href="https://www.barrage.net/"
+                rel="noreferrer noopener"
+                target="_blank">
+                @Barrage
+              </a>
+            </p>
+          </div>
+
+          <div className="icons__container" role="presentation">
+            <a
+              href="https://github.com/amihaljevic"
+              rel="noreferrer noopener"
+              target="_blank"
+              aria-label="GitHub profile"
+              className="icon__link">
+              <img
+                src="https://skillicons.dev/icons?i=github"
+                alt=""
+                className="icon__image"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/amihaljevic/"
+              rel="noreferrer noopener"
+              target="_blank"
+              aria-label="LinkedIn profile"
+              className="icon__link">
+              <img
+                src="https://skillicons.dev/icons?i=linkedin"
+                alt=""
+                className="icon__image"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/andja_mandja_gandja/"
+              rel="noreferrer noopener"
+              target="_blank"
+              aria-label="Instagram profile"
+              className="icon__link">
+              <img
+                src="https://skillicons.dev/icons?i=instagram"
+                alt=""
+                className="icon__image"
+              />
+            </a>
+          </div>
+        </section>
       </section>
 
       <section id="postings" className="section section--postings bg-yellow">
@@ -75,42 +134,116 @@ function App() {
 
         <ul className="list">
           <li className="list__item">
-            <a href="https://www.codecademy.com/">Codecademy</a>
+            <a
+              href="https://web.dev/learn/"
+              rel="noreferrer noopener"
+              target="_blank">
+              Learn | web.dev
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://www.freecodecamp.org/">freeCodeCamp</a>
+            <a
+              href="https://andreasbm.github.io/web-skills/"
+              rel="noreferrer noopener"
+              target="_blank">
+              Web Skills
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://web.dev/learn/">Learn | web.dev</a>
+            <a
+              href="https://roadmap.sh/"
+              rel="noreferrer noopener"
+              target="_blank">
+              Developer Roadmaps
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://andreasbm.github.io/web-skills/">Web Skills</a>
+            <a
+              href="https://www.code-snippets.dev/"
+              rel="noreferrer noopener"
+              target="_blank">
+              Code Snippets
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://roadmap.sh/">Developer Roadmaps</a>
-          </li>
-          <li className="list__item">
-            <a href="https://www.code-snippets.dev/">Code Snippets</a>
-          </li>
-          <li className="list__item">
-            <a href="https://www.whatdevsneed.com/">whatdevsneed</a>
-          </li>
-          <li className="list__item">
-            <a href="https://learngitbranching.js.org/">Learn Git Branching</a>
-          </li>
-          <li className="list__item">
-            <a href="https://flukeout.github.io/">CSS Diner</a>
-          </li>
-          <li className="list__item">
-            <a href="https://cssgridgarden.com/">Grid Garden</a>
-          </li>
-          <li className="list__item">
-            <a href="http://www.flexboxdefense.com/">Flexbox Defense</a>
-          </li>
-          <li className="list__item">
-            <a href="https://flexboxfroggy.com/">Flexbox Froggy</a>
+            <a
+              href="https://www.whatdevsneed.com/"
+              rel="noreferrer noopener"
+              target="_blank">
+              whatdevsneed
+            </a>
           </li>
         </ul>
+
+        <section>
+          <h3>Courses</h3>
+
+          <ul className="list">
+            <li className="list__item">
+              <a
+                href="https://www.codecademy.com/"
+                rel="noreferrer noopener"
+                target="_blank">
+                Codecademy
+              </a>
+            </li>
+            <li className="list__item">
+              <a
+                href="https://www.freecodecamp.org/"
+                rel="noreferrer noopener"
+                target="_blank">
+                freeCodeCamp
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Gamification</h3>
+
+          <ul className="list">
+            <li className="list__item">
+              <a
+                href="https://learngitbranching.js.org/"
+                rel="noreferrer noopener"
+                target="_blank">
+                Learn Git Branching
+              </a>
+            </li>
+            <li className="list__item">
+              <a
+                href="https://flukeout.github.io/"
+                rel="noreferrer noopener"
+                target="_blank">
+                CSS Diner
+              </a>
+            </li>
+            <li className="list__item">
+              <a
+                href="https://cssgridgarden.com/"
+                rel="noreferrer noopener"
+                target="_blank">
+                Grid Garden
+              </a>
+            </li>
+            <li className="list__item">
+              <a
+                href="http://www.flexboxdefense.com/"
+                rel="noreferrer noopener"
+                target="_blank">
+                Flexbox Defense
+              </a>
+            </li>
+            <li className="list__item">
+              <a
+                href="https://flexboxfroggy.com/"
+                rel="noreferrer noopener"
+                target="_blank">
+                Flexbox Froggy
+              </a>
+            </li>
+          </ul>
+        </section>
       </section>
 
       <section id="newsletters" className="section newsletters bg-blue">
@@ -118,44 +251,102 @@ function App() {
 
         <ul className="list">
           <li className="list__item">
-            <a href="https://sidebar.io/">sidebar.io</a>
+            <a
+              href="https://sidebar.io/"
+              rel="noreferrer noopener"
+              target="_blank">
+              sidebar.io
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://bytes.dev/">bytes.dev</a>
+            <a
+              href="https://css-tricks.com/"
+              rel="noreferrer noopener"
+              target="_blank">
+              CSS Tricks
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://css-tricks.com/">CSS Tricks</a>
+            <a
+              href="https://css-weekly.com/"
+              rel="noreferrer noopener"
+              target="_blank">
+              CSS Weekly
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://programmingdigest.net/">Programming Digest</a>
+            <a
+              href="https://bytes.dev/"
+              rel="noreferrer noopener"
+              target="_blank">
+              bytes.dev
+            </a>
+          </li>
+
+          <li className="list__item">
+            <a
+              href="https://programmingdigest.net/"
+              rel="noreferrer noopener"
+              target="_blank">
+              Programming Digest
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://buttondown.email/the-a11y-project">
+            <a
+              href="https://buttondown.email/the-a11y-project"
+              rel="noreferrer noopener"
+              target="_blank">
               The A11Y Project
             </a>
           </li>
           <li className="list__item">
-            <a href="https://kentcdodds.com/">Kent C. Dodds</a>
+            <a
+              href="https://kentcdodds.com/"
+              rel="noreferrer noopener"
+              target="_blank">
+              Kent C. Dodds
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://hackernewsletter.com/">Hacker Newsletter</a>
+            <a
+              href="https://hackernewsletter.com/"
+              rel="noreferrer noopener"
+              target="_blank">
+              Hacker Newsletter
+            </a>
           </li>
           <li className="list__item">
-            <a href="https://dailytech.email/">Daily Tech</a>
-          </li>
-          <li className="list__item">
-            <a href="https://css-weekly.com/">CSS Weekly</a>
+            <a
+              href="https://dailytech.email/"
+              rel="noreferrer noopener"
+              target="_blank">
+              Daily Tech
+            </a>
           </li>
         </ul>
 
-        <ul className="list">
-          <li className="list__item">
-            <a href="https://reactnewsletter.com/">React Newsletter</a>
-          </li>
-          <li className="list__item">
-            <a href="https://reactdigest.net/">React Digest</a>
-          </li>
-        </ul>
+        <section>
+          <h3>React specific</h3>
+
+          <ul className="list">
+            <li className="list__item">
+              <a
+                href="https://reactnewsletter.com/"
+                rel="noreferrer noopener"
+                target="_blank">
+                React Newsletter
+              </a>
+            </li>
+            <li className="list__item">
+              <a
+                href="https://reactdigest.net/"
+                rel="noreferrer noopener"
+                target="_blank">
+                React Digest
+              </a>
+            </li>
+          </ul>
+        </section>
       </section>
 
       <section id="bai" className="section section--bai bg-green">

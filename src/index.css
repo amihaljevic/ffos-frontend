@@ -88,34 +88,46 @@ h6 {
 }
 
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
+.h4,
 h5,
-h6 {
+.h5,
+h6,
+.h6 {
   font-family: var(--font-serif);
 }
 
-h1 {
+h1,
+.h1 {
   font-size: clamp(1.75rem, 1rem + 3vw, 4.25rem);
 }
 
-h2 {
+h2,
+.h2 {
   font-size: clamp(1.25rem, 1rem + 2.5vw, 3.75rem);
 }
 
-h3 {
-  font-size: clamp(1.75rem, 1rem + 3vw, 4.25rem);
+h3,
+.h3 {
+  font-size: clamp(1rem, 1rem + 1.75vw, 3.25rem);
 }
 
-h4 {
-  font-size: clamp(1.75rem, 1rem + 3vw, 4.25rem);
+h4,
+.h4 {
+  font-size: clamp(0.75rem, 1rem + 1.5vw, 1.25rem);
 }
 
-h5 {
-  font-size: clamp(1.75rem, 1rem + 3vw, 4.25rem);
+h5,
+.h5 {
+  font-size: clamp(0.5rem, 1rem + 1.25vw, 1rem);
 }
 
-h6 {
+h6,
+.h6 {
   font-size: clamp(1.75rem, 1rem + 3vw, 4.25rem);
 }
